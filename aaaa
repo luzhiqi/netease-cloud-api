@@ -1,0 +1,179 @@
+{
+  "url": "https://api.github.com/repos/ZCShou/GoGoGo/releases/157707519",
+  "assets_url": "https://api.github.com/repos/ZCShou/GoGoGo/releases/157707519/assets",
+  "upload_url": "https://uploads.github.com/repos/ZCShou/GoGoGo/releases/157707519/assets{?name,label}",
+  "html_url": "https://github.com/ZCShou/GoGoGo/releases/tag/v1.12.1",
+  "id": 157707519,
+  "author": {
+    "login": "github-actions[bot]",
+    "id": 41898282,
+    "node_id": "MDM6Qm90NDE4OTgyODI=",
+    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+    "html_url": "https://github.com/apps/github-actions",
+    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOGeXndc4JZmz_",
+  "tag_name": "v1.12.1",
+  "target_commitish": "master",
+  "name": "v1.12.1",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2024-05-28T02:35:20Z",
+  "published_at": "2024-05-28T02:47:13Z",
+  "assets": [
+    {
+      "url": "https://api.github.com/repos/ZCShou/GoGoGo/releases/assets/170447035",
+      "id": 170447035,
+      "node_id": "RA_kwDOGeXndc4KKNC7",
+      "name": "Go_1.12.1_arm64-v8a_release-signed.apk",
+      "label": "",
+      "uploader": {
+        "login": "github-actions[bot]",
+        "id": 41898282,
+        "node_id": "MDM6Qm90NDE4OTgyODI=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+        "html_url": "https://github.com/apps/github-actions",
+        "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "content_type": "application/vnd.android.package-archive",
+      "state": "uploaded",
+      "size": 16734680,
+      "download_count": 367025,
+      "created_at": "2024-05-28T02:47:13Z",
+      "updated_at": "2024-05-28T02:47:14Z",
+      "browser_download_url": "https://github.com/ZCShou/GoGoGo/releases/download/v1.12.1/Go_1.12.1_arm64-v8a_release-signed.apk"
+    }
+  ],
+  "tarball_url": "https://api.github.com/repos/ZCShou/GoGoGo/tarball/v1.12.1",
+  "zipball_url": "https://api.github.com/repos/ZCShou/GoGoGo/zipball/v1.12.1",
+  "body": "## New Features\n* **history:**\n  * optimize the logic of storing history (50cc3d260294199411277326b2bc1e621cf83681 by @ZCShou)\n* **joystick:**\n  * resize some icon (a6358f0a5ead0695d37d15f5ea6ec086697fa00e by @ZCShou)\n  * zoom out some icon (b2100c5eceb67ba82a379ce4c84ce3460fa0944c & 53a86a8b512fdbd7ccad7ebe6f286a88055e68fa by @ZCShou)\n  * enlarge joystick (ec2de1046fe6f9ff42d541975e08f2c3026d8feb by @ZCShou)\n* **main:**\n  * add more log for error (7d04e7b6674bb2476e53a30e2c10bda95e1b6e2e by @ZCShou)\n  * add settings for altitude (004c0789afc9dbcab1d7c088147b8e19ff370dfc by @ZCShou)\n* **map:**\n  * updage baidu map sdk (b6d2989b367b652e5ac07b95c4001c87c3e33a00 by @ZCShou)\n* **mian:**\n  * use markwon to show markdown (8d3b9f5c079eb3862f003c1e5c066199fb7ffec6 by @ZCShou)\n\n## Bug Fixes\n* **github:**\n  * fix codeQL error (576352a4e155e63f604fb19af26dc6844b72b859 by @ZCShou)\n* **github actions:**\n  * badge in README can not used because action changed name (dbd128a179f4e785b3bc8caa8d04cf9b0c2590c4 by @ZCShou)\n  * changelog can not parse version (fcf45e498d5948b8f07cca2c86cf2b2bf2ac9110 by @ZCShou)\n* **history:**\n  * clean duplicated code (cc05e4ecf25e0e196824796e97d95b25e425abaf by @ZCShou)\n  * fix can not clean old search history (a9a1c501baf5e1b22fea02715a1d1b23e0aba0be by @ZCShou)\n  * fix the ui break when history item text is too long (1436a1f51d639e2226db05420f360a00f2e292ea by @ZCShou)\n* **ISSUE:**\n  * fix github issue template duplicated (92448d452e50275a3974a1e3771d40e829ee389b by @ZCShou)\n* **joystick:**\n  * the left button need to be click twice (407abfd3db57f91c4a926c96a576b5b8194b5081 by @ZCShou)\n  * fix jostick history ui is too small when no history (bb99e031242bebc9c6544b47bd7fe40d61074168 by @ZCShou)\n  * fix joystick map serach result can not hide after close window (98f214ad9b4a333a7b6e0ad4e7cdd7449347a694 by @ZCShou)\n  * fix joystick history ui Scale when open search (60d4a9dd3e3ae786e9db8aa985ce2f01adbae497 by @ZCShou)\n  * fix a crach when select location by joystick map (5b18c856157924539b85113d344eb776166d97f6 by @ZCShou)\n* **License:**\n  * fix license compliance (435f9ef74b51fdddc2aa67f99e8b443e6b7db489 by @ZCShou)\n* **Main:**\n  * fix some useless parameter (42a3014ecd427a5745e67ca311d937f98a33c2f5 by @ZCShou)\n* **mian:**\n  * fix an crash when saving location (b014e53d50cd11c78f4e152f076747e25bdb4f78 by @ZCShou)\n  * fix some warnings (1b87477b44e6d208f6a59ae77ad350e735c88c7e by @ZCShou)\n  * fix do not record location when go continually (0e30108d17448510417a7e70f929780838e0435f by @ZCShou)\n  * fix can not go continually (4eb13eac7c88bbc20d3c5b4b0b3ce8509c4de8c9 by @ZCShou)\n* **search:**\n  * fix crash when clicked the search history entries (8454171d9ee8e879c4d126a00ab381a71245eb5b by @ZCShou)\n* **settings:**\n  * fix some warning in settings (c31db101074b25966fafcf0d548233ed67ba1015 by @ZCShou)\n  * DO NOT allow empty value (798267f410da9f0bfea5f756c61f5bee43fc0468 by @ZCShou)\n  * the position of cursor is not correct for some inouts (c326480c93db9bfc675d2e2528831efd4a3b2dbf by @ZCShou)\n* **style:**\n  * fix some inefficient empty string test (108a588da0b9f0a1fbe0f7f484db49532e16f881 by @ZCShou)\n  * fix some method witout overide keyword (025c0140bd3bb1a9c464dbf17f3390496914be07 by @ZCShou)\n* **welcome:**\n  * update tips for user‘s agreement and privacy (3563d46a38423d7993f07965a3233c878d237d94 by @ZCShou)\n  * adjust the logic of selecting privacy and agreement (c6556eb0d51589f594a3eb62fc4526d227e6474a by @ZCShou)\n  * fix crash when starting up (ab7ba9fe970ab2a22f00247d76eebda90d420427 by @ZCShou)\n* **xml:**\n  * add some comments (f8407de87b0a5016a81e24262e144b97951899df by @ZCShou)\n\n## Documentation\n* **README:**\n  * update (6e941576e890021aa3c257033e15b4d736e567e2 & 9897c4b8a09169c1f7dc5cad6c917998d3d7ee00 & c81d4766e29c60c1e000fc8ad6cca6fb7a2a7fc3 by @ZCShou)\n  * update en (05967844b0d22985874c58839a3cb13e59306f06 by @ZCShou)\n\n## Refactors\n* **history:**\n  * refactor welcome code (8ac1e95d7f73138a9d0d2f0bed97f5641c552db3 by @ZCShou)\n* **joystick:**\n  * refactor joystick code (311b0f737f1d09822552b2dde0ad4ee201a136cb by @ZCShou)\n* **main:**\n  * clear some code (2ea7e49c8efdf1fd283404e739519f6868e9fc2b by @ZCShou)\n  * now we used offline coordinate convertion (3e58fd18b7617e00d7fb616e5219a230b5239b24 by @ZCShou)\n  * refactor check wifi code (99b7a62d31d0d30e4b97f0bb91fa98beb0d2a9d4 by @ZCShou)\n  * refactor main code (ac6664b9f55a0c19300b85f25c01d909419ce354 & 12c583c4a149e10cde3fd70d450aca62ea35f574 & 676bddcb050ef214de1d37577961d635265908ee & edd5ef4d11673f7b597300bfb75c20a91d6d35c0 by @ZCShou)\n  * refactor joystick code (827eaca95616906edeb72e3f29894c0ecc204486 by @ZCShou)\n* **UI:**\n  * rename ui file name (e3ae319f5017b382bb546cec49ab1a275f02d280 by @ZCShou)\n* **welcome:**\n  * redesign the welcome page (497dfd4669e107eac7665450347b559a8b2e99b5 & db727d3682c0f21fc614bfe1ef9c5e271cdf21ce by @ZCShou)\n  * refactor setting code (2ac7286609a23681b6f845919a1bbbdb076dc7b1 by @ZCShou)\n  * refactor welcome code (d75cd54b3f6456228638d7bf18ac6947de44cdf9 by @ZCShou)\n\n## Chores\n* **AGP:**\n  * update AGP (c4722accba86eb1e6380727b29544bbb15a4e55e by @ZCShou)\n* **all:**\n  * update version (6218ce44d1fc7737cd140580bea5d94525ffb846 by @ZCShou)\n* **deps:**\n  * bump github/codeql-action from 3.25.5 to 3.25.6 (d125575ee0e26011774732f26c9d17e6ac4c0bac by @dependabot[bot])\n  * bump github/codeql-action from 3.25.3 to 3.25.5 (f7f9f4a7622209435408671eea5df7cffd62931e by @dependabot[bot])\n  * bump softprops/action-gh-release from 2.0.4 to 2.0.5 (073ec5c6c41dd42e76ae435666e102c538625b07 by @dependabot[bot])\n  * bump github/codeql-action from 3.25.1 to 3.25.3 (7e4ad789ad7accab5da5c97211584158d674aec5 by @dependabot[bot])\n  * bump github/codeql-action from 3.25.0 to 3.25.1 (30b7fcbbe10eba7bb2d4e9181a5d78292d0c6696 by @dependabot[bot])\n  * bump github/codeql-action from 3.24.10 to 3.25.0 (3f94344612d933ddb33267ed7c8e5485149532c1 by @dependabot[bot])\n  * bump github/codeql-action from 3.24.9 to 3.24.10 (e5f0edccd27a01988ad187632a29ba6b12d8a99f by @dependabot[bot])\n  * update baidu map sdk (7b1116e70be35fd211314fa2ed9503e73ced6eaa by @ZCShou)\n  * update dependencies (c162561428f4ac75d91534ff8b1d017e590a0b5d by @ZCShou)\n  * update ndk (8377f6312111a0e9d8d7ec00c38ac77aef95e648 by @ZCShou)\n  * bump github/codeql-action from 3.24.8 to 3.24.9 (6e1af29b8339dda690d4042c74705cf4aae992a9 by @dependabot[bot])\n  * bump softprops/action-gh-release from 2.0.3 to 2.0.4 (26bb514f3f986ce31685c90851093f29f9dd335e by @dependabot[bot])\n  * bump github/codeql-action from 3.24.6 to 3.24.8 (afa28c6a9ac86c9c9ae7aa7c46008214e59bc705 by @dependabot[bot])\n  * bump softprops/action-gh-release from 0.1.15 to 2.0.3 (093a518dbbf9da950eae92cbb6fe49b328d4575c by @dependabot[bot])\n  * bump github/codeql-action from 3.24.5 to 3.24.6 (a72503b800cfc0eba76b72be320de5748ee9da83 by @dependabot[bot])\n  * bump actions/setup-java from 3 to 4 (f1ff918591316b9e21388a2815db909fb2107e96 by @dependabot[bot])\n  * bump github/codeql-action from 3.24.3 to 3.24.5 (5944e576bf48fbdc519e6cfed1976c069325b964 by @dependabot[bot])\n  * bump github/codeql-action from 3.24.0 to 3.24.3 (3860e45b3d693d69123c3532fb65ad2080e1d335 by @dependabot[bot])\n  * bump ardalanamini/auto-changelog from 4.0.0 to 4.0.1 (189dd68e8b199dcc6d0cd38ff9e7bee594e6d04b by @dependabot[bot])\n  * bump github/codeql-action from 3.23.2 to 3.24.0 (50c635c830e5bd683911d703cd6e039af576292f by @dependabot[bot])\n  * bump github/codeql-action from 3.23.1 to 3.23.2 (59df1590c87dc8887fe45e85c2140939de42c4fc by @dependabot[bot])\n  * bump com.android.tools.build:gradle from 8.2.1 to 8.2.2 (d78171de1d106d6d75fe98aef8cf77501ede14cc by @dependabot[bot])\n  * bump github/codeql-action from 3.23.0 to 3.23.1 (270a0faa52179bd2f273287dab9fdb01ea69aed5 by @dependabot[bot])\n  * bump github/codeql-action from 3.22.12 to 3.23.0 (d41cb2653a07d3e4dd52efecf53b68be50a21838 by @dependabot[bot])\n  * bump com.android.tools.build:gradle from 8.2.0 to 8.2.1 (3e9213454a7a5ea55d49089f12de4ecb54ae6215 by @dependabot[bot])\n  * bump github/codeql-action from 3.22.11 to 3.22.12 (163d056a838de05c0019df561d5402732ad02903 by @dependabot[bot])\n  * bump actions/checkout from 3 to 4 (673bfe6ec8e148498fbc501aee1823d7c6263466 by @dependabot[bot])\n  * bump ardalanamini/auto-changelog from 3 to 4 (8226915b57ec29f914618634b12f582328714b0c by @dependabot[bot])\n  * bump com.squareup.okhttp3:okhttp from 4.10.0 to 4.11.0 (b1e8f6128a826f5e19447ddfdad0358c98c76856 by @dependabot[bot])\n* **doc:**\n  * update README (86b9a2b89acb02737a5c6128e057b350ed40ce25 by @ZCShou)\n* **gradle:**\n  * update some dependency (b60b290c170d4ecf116c5f0b5e6baa293c0c3285 & 9393eafd4e2e909c6e52d3a1493f3fc04c6ecdc5 by @ZCShou)\n* **joystick:**\n  * redesign some icon (4d7bd6c0539352e8926a670166dbfad655fe575c by @ZCShou)\n* **main:**\n  * clean warnings (9aff736220029724329cbcb02b5fbf50eb45a5e4 & e392f74e0c2bd5a97e2303d2649ad1eeeee7c52c by @ZCShou)\n* **map:**\n  * update okhttp3 to 4.10.0 (0fc56dc2b028cf44a453b18f4549ab632bfac42c by @ZCShou)\n  * update version (9f03ed3312d976a998cafb5368c46b14d5170373 by @ZCShou)\n  * update baidu sdk (18908bd6d73801960abac77076fd057b0f362afb by @ZCShou)\n* **ui:**\n  * redraw the app's icon (b8ae3d54749779b9a3a0194ce21bf8f5f6ec7582 by @ZCShou)\n* **welcome:**\n  * rename the layout file (9e1e698776f893733229a1e2688da13b15e01f0b by @ZCShou)\n\n## CI\n* **Github Actions:**\n  * update build actions (10b10c673b1618dfa6e67ad4f0af2d7135a04d24 by @ZCShou)\n\n## Code Style\n* **joystick:**\n  * redraw the rockerview‘s lock icon (3fcd94ae16cae5d739069c135223ebe1845750b7 by @ZCShou)\n* **main:**\n  * update map button style when clicking (d26698dd092db49dd1bf9ad3f5589ce916212e6f by @ZCShou)\n* **protocol:**\n  * rename some related variable (e0b684e7c41576ec8f2182f4d45900da24492898 & e521d6e1fafb359bcc41f75e3acbb7da457a85df by @ZCShou)\n* **setting:**\n  * update setting ui (02e060f0dd860bc8088bac70d16bbc09d1eabe44 by @ZCShou)\n* **theme:**\n  * adjust theme (add0e83182b6d9ba326630c444500b906acc527c by @ZCShou)\n\n## Other Changes\n* 2022-06-18 04:32:17 (24a00089e752de24dc09a970e75c16030d973da9 by @ZCShou)\n* Criteria.ACCURACY_FINE lint error on Android 12 (82b41447d116d9aa36e4299c2cf891e018e9b5cd by @ZCShou)\n* ' to use the faster \"indexOf(char)\" method. (82fdfbbca076ed6025d58ce13a78a0fc48098a3c by @ZCShou)\n* //en.wikipedia.org/wiki/Comparison_of_ARMv8-A_cores (266dcc3d8430fc08d6890466fc097b4f31335f00 by @ZCShou)\n* //gitee.com/zcshou/gogogo (4f5db18e71117e03820438583ca5374b4e2d346f by @ZCShou)\n* **<github>:**\n  * fix github actions (ab0ecf1aa503a8f39f8ab7dca7f48b1ed700a902 by @ZCShou)\n* **<README>:**\n  * add check license (8e54112a8632325edf56d21278e9ec64553cc72c by @ZCShou)\n  * add some warnings (fae542c0fc3af1df5e7ec66519bf19fb60f0ef0d by @ZCShou)\n* **actions:**\n  * update issue actions (5e3371066f2724ede656027d68b1ec42ef43528c by @ZCShou)\n* **baidu:**\n  * update baidu map sdk (c37171ebb23259356cc793923c677c0f29dd2431 by @ZCShou)\n* **button:**\n  * update joystick button style when clicking (ecd4abc6f1d5d41861ac05e38640b405c404218c by @ZCShou)\n* **clear:**\n  * clear some deprecated config (5e1e5844709bfcf21d5a95b98f978d92679e574b by @ZCShou)\n* **github:**\n  * delete codeql enties. (a1d6ff9cd4b18e91aff8522aca66bb2c48404f5e by @ZCShou)\n  * fix release actions (b9c30432c37d05d4cd71fa0e456e781b0b158f8a & 81f4218c63d51eb1143cb3f2d273bd414f92a30d & addab34c8dbc429126161855abdb6759e4310e2f & e69894dd2ab9fab03541d787ecc34f492e22808b by @ZCShou)\n* **Github:**\n  * update github's actions (6c4958783993c7da458c6892a89ffb596c76e7a9 & d391752dafebc11106f544d40c11e1f7ee54fa10 & 0c5baa9d12f72c8e7878b935e2c9fc61cf57c01b by @ZCShou)\n  * update github's issue templates (a1f2b5fb4f6cda436789cf32c30d7976ac06440e & 8e2bf9100cb23692bbb5b657c6b87f0307bc8924 by @ZCShou)\n* **github actions:**\n  * add codeql queries. (ffb964f6abad4d51d59f446d898c51339670c10e by @ZCShou)\n* **gradle:**\n  * update gradle version (76e7ee271162b5a89d678433c172c24bb40518fb by @ZCShou)\n* **issues:**\n  * Update issue templates (890d1d89d0496ab40d4a7cb988e7a531a3fb8a08 by @ZCShou)\n* **link:**\n  * update git repository link (9e99e857fa32f7c87ddef5c27495fb376d942ffb by @ZCShou)\n* **main:**\n  * clean warnings\" (dcb41a51b8bb1b22b024770e6937b95da9669e4d by @ZCShou)\n* **map:**\n  * update baidu map sdk (b5fb8150df6c4c4cd8243fc8de186fe571e52741 by @ZCShou)\n  * update float map button (59c138e0b4dfa73fe21435cf24799d39f3c1fa84 by @ZCShou)\n* **NDK:**\n  * update NDK to 25.1 (c1da7ac8895ea5269e81414a80e1cfc6747edbb9 by @ZCShou)\n* **panel:**\n  * update poi panel and fly icon (cd326b22664a11e04cd52cef94c7457f3b8395bb by @ZCShou)\n* **PR:**\n  * update PR template (7513fc2835b715c0543ae0e37b78362d63197ce5 by @ZCShou)\n* **README:**\n  * rename some image's name (1c6fe9517af8bffb4a6cc076fd637aa8f82e027f by @ZCShou)\n  * add some warnings (26b6fea74a12d97808e28066c913f692244f62bc & 35234964617a8c2cfe7dd010e0f40138bd8d9cd6 by @ZCShou)\n* **SECURITY:**\n  * update SECURITY.md (e983d9c83f235f46882599f75501befd4e9b70db by @ZCShou)\n* **service:**\n  * update service stop (8642e02f3cdcc5ca5d584e87776bea87a3f0b008 by @ZCShou)\n\n\n## New Contributors\n* @dependabot made their first contribution in https://github.com/ZCShou/GoGoGo/pull/11\n* @BXYMartin made their first contribution in https://github.com/ZCShou/GoGoGo/pull/86\n* @Caulm made their first contribution in https://github.com/ZCShou/GoGoGo/pull/94\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/ZCShou/GoGoGo/releases/157707519/reactions",
+    "total_count": 27,
+    "+1": 27,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "mentions_count": 4
+}
+
+{
+“url”： “https://api.github.com/repos/ZCShou/GoGoGo/releases/157707519”，
+“assets_url”： “https://api.github.com/repos/ZCShou/GoGoGo/releases/157707519/assets”，
+“upload_url”： “https://uploads.github.com/repos/ZCShou/GoGoGo/releases/157707519/assets{？name，label}”，
+“html_url”： “https://github.com/ZCShou/GoGoGo/releases/tag/v1.12.1”，
+“id”： 157707519，
+“作者”： {
+“login”： “github-actions[机器人]”，
+“id”： 41898282，
+“node_id”： “MDM6Qm90NDE4OTgyODI=”，
+“avatar_url”： “https://avatars.githubusercontent.com/in/15368?v=4”，
+“gravatar_id”： “”，
+“url”： “https://api.github.com/users/github-actions%5Bbot%5D”， /地址
+“html_url”： “https://github.com/apps/github-actions”，
+“followers_url”： “https://api.github.com/users/github-actions%5Bbot%5D/followers”，
+“following_url”： “https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}”，
+“gists_url”： “https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}”，
+“starred_url”： “https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}”，
+“subscriptions_url”： “https://api.github.com/users/github-actions%5Bbot%5D/subscriptions”，
+“organizations_url”： “https://api.github.com/users/github-actions%5Bbot%5D/orgs”，
+“repos_url”： “https://api.github.com/users/github-actions%5Bbot%5D/repos”，
+“events_url”： “https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}”，
+“received_events_url”： “https://api.github.com/users/github-actions%5Bbot%5D/received_events”，
+“type”： “机器人”，
+“user_view_type”： “public”，
+“site_admin”：false
+  },
+“node_id”： “RE_kwDOGeXndc4JZmz_”，
+“tag_name”： “v1.12.1”，
+“target_commitish”： “master”，
+“name”： “v1.12.1”， //名称
+“draft”： false，
+“prerelease”： false，
+“created_at”： “2024-05-28T02：35：20Z”，
+“published_at”： “2024-05-28T02：47：13Z”，
+“资产”： [
+    {
+“url”： “https://api.github.com/repos/ZCShou/GoGoGo/releases/assets/170447035”， //网址
+“id”： 170447035，
+“node_id”： “RA_kwDOGeXndc4KKNC7”，
+“name”： “Go_1.12.1_arm64-v8a_release-signed.apk”，
+“标签”： “”，
+“上传者”： {
+“login”： “github-actions[机器人]”，
+“id”： 41898282，
+“node_id”： “MDM6Qm90NDE4OTgyODI=”，
+“avatar_url”： “https://avatars.githubusercontent.com/in/15368?v=4”，
+“gravatar_id”： “”，
+“url”： “https://api.github.com/users/github-actions%5Bbot%5D”， /地址
+“html_url”： “https://github.com/apps/github-actions”，
+“followers_url”： “https://api.github.com/users/github-actions%5Bbot%5D/followers”，
+“following_url”： “https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}”，
+“gists_url”： “https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}”，
+“starred_url”： “https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}”，
+“subscriptions_url”： “https://api.github.com/users/github-actions%5Bbot%5D/subscriptions”，
+“organizations_url”： “https://api.github.com/users/github-actions%5Bbot%5D/orgs”，
+“repos_url”： “https://api.github.com/users/github-actions%5Bbot%5D/repos”，
+“events_url”： “https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}”，
+“received_events_url”： “https://api.github.com/users/github-actions%5Bbot%5D/received_events”，
+“type”： “机器人”，
+“user_view_type”： “public”，
+“site_admin”：false
+      },
+“content_type”： “application/vnd.android.package-archive”， /应用程序/vnd.android.包存档
+“state”： “已上传”，
+“size”： 16734680，
+“download_count”：367025、
+“created_at”： “2024-05-28T02：47：13Z”，
+“updated_at”： “2024-05-28T02：47：14Z”，
+“browser_download_url”： “https://github.com/ZCShou/GoGoGo/releases/download/v1.12.1/Go_1.12.1_arm64-v8a_release-signed.apk”
+    }
+],
+“tarball_url”： “https://app.github.com/repos/gekshu/gogogo/tarball/v1.12.1”，
+“zipball_url”： “https://api.github.com/repos/ZCShou/GoGoGo/zipball/v1.12.1”，
+“body”： “#新功能“历史””““@ZCShou”优化历史存储逻辑）” **操纵杆” ”调整一些图标的大小（@ZCShou@ZCShou） ” ” “50cc3d260294199411277326b2bc1e621cf83681，“ “ ”增加“操纵杆” “ @ZCShou“主要”“主要”““““添加更多错误日志”（7d04e7b6674bb2476e53a30e2c10bda95e1b6e2e by @ZCShou）\n * 添加高度设置（004c0789afc9dbcab1d7c088147b8e19ff370dfc by @ZCShou）\n* **地图： **\n * 更新百度地图SDK （b6d2989b367b652e5ac07b95c4001c87c3e33a00 by @ZCShou）\n* **mian：**\n * 使用markwon显示markdown（8d3b9f5c079eb3862f003c1e5c066199fb7ffec6 by @ZCShou）\n\n## 错误修复\n* **github：**\n * 修复代码QL错误（576352a4e155e63f604fb19af26dc6844b72b859 by @ZCShou）\n* **github操作：**\n * README 中的徽章不能使用因为操作更改了名称 （dbd128a179f4e785b3bc8caa8d04cf9b0c2590c4 by @ZCShou）\n * 更改日志无法解析版本 （fcf45e498d5948b8f07cca2c86cf2b2bf2ac9110 by @ZCShou）\n* **历史记录： **\n * 清理重复的代码 （cc05e4ecf25e0e196824796e97d95b25e425abaf by @ZCShou）\n * 修复无法清理旧的搜索历史 （a9a1c501baf5e1b22fea02715a1d1b23e0aba0be by @ZCShou）\n * 修复历史项目文本过长时的 UI 中断 （1436a1f51d639e2226db05420f360a00f2e292ea by @ZCShou）\n* **问题：**\n * 修复github问题模板重复（92448d452e50275a3974a1e3771d40e829ee389b由@ZCShou提供）\n* **操纵杆：**\n * 左按钮需要点击两次（407abfd3db57f91c4a926c96a576b5b8194b5081 by @ZCShou）\n * 修复Jostick历史UI在没有历史时太小（bb99e031242bebc9c6544b47bd7fe40d61074168由@ZCShou提供）\n * 修复joystic关闭窗口后 k 地图搜索结果无法隐藏 （98f214ad9b4a333a7b6e0ad4e7cdd7449347a694 by @ZCShou）\n * 修复操纵杆历史用户界面打开搜索时的比例尺 （60d4a9dd3e3ae786e9db8aa985ce2f01adbae497 by @ZCShou）\n * 修复操纵杆地图选择位置时的 crach （5b18c856157924539b85113d344eb776166d97f6 by @ZCShou）\n* **许可证：**\n * 修复许可证合规性 （435f9ef74b51fdddc2aa67f99e8b443e6b7db489 by @ZCShou）\n* **主要：**\n * 修复一些无用的参数（42a3014ecd427a5745e67ca311d937f98a33c2f5 by @ZCShou）\n* **面： **\n * 修复保存位置时崩溃的问题 （b014e53d50cd11c78f4e152f076747e25bdb4f78 by @ZCShou）\n * 修复一些警告 （1b87477b44e6d208f6a59ae77ad350e735c88c7e by @ZCShou）\n * 修复连续搜索时不记录位置的问题 （0e30108d17448510417a7e70f929780838e0435@ZCShou f）\n * 修复无法连续播放的问题 （4eb13eac7c88bbc20d3c5b4b0b3ce8509c4de8c9 by @ZCShou）\n* **搜索：**\n * 修复点击搜索历史条目时崩溃的问题（8454171d9ee8e879c4d126a00ab381a71245eb5b by @ZCShou）\n* **设置：**\n * 修复设置中的一些警告 （c31db101074b25966fafcf0d548233ed67ba1015 by @ZCShou）\n * 不允许空值 （798267f410da9f0bfea5f756c61f5bee43fc0468 by @ZCShou）\n * 光标位置对于某些输入不正确 （c326480c93db9bfc675d2e2528831efd4a3b2dbf by @ZCShou）\n* **style：**\n * 修复一些效率低下的空字符串测试 （108a588da0b9f0a1fbe0f7f484db49532e16f881 by @ZCShou）\n * 修复一些没有输出的方法overide 关键字 （025c0140bd3bb1a9c464dbf17f3390496914be07 by @ZCShou）\n* **欢迎：**\n * 更新用户协议和隐私提示 （3563d46a38423d7993f07965a3233c878d237d94 by @ZCShou）\n * 调整选择隐私和协议的逻辑 （c6556eb0d51589f594a3eb62fc4526d227e6474a by @ZCShou）\n * 修复启动时的崩溃 （ab7ba9fe970ab2a22f00247d76eebda90d420427 by @ZCShou）\n* **xml：**\n * 添加一些注释 （f8407de87b0a5016a81e24262e144b97951899df by @ZCShou）\n\n## 文档\n* **自述文件：**\n * 更新（6e941576e890021aa3c257033e15b4d736e567e2 & 9897c4b8a09169c1f7dc5cad6c917998d3d7ee00 & c81d4766e29c60c1e000fc8ad6cca6fb7a2a7fc3 by @ZCShou）\n * 更新英语（05967844b0d22985874c58839a3cb13e59306f06 by @ZCShou）\n\n## 重构\n* **历史：**\n * 重构欢迎代码（8ac1e95d7f73138a9d0d2f0bed97f5641c552db3 by @ZCShou）\n* **操纵杆：**\n * 重构操纵杆代码（311b0f737f1d09822552b2dde0ad4ee201a136cb by @ZCShou）\n* **主要：**\n * 清除一些代码（2ea7e49c8efdf1fd283404e739519f6868e9fc2b由@ZCShou）\n * 现在我们使用了离线坐标转换（3e58fd18b7617e00d7fb616e5219a230b5239b24由@ZCShou）\n * 重构检查wifi代码（99b7a62d31d0d30e4b97f0bb91fa98beb0d2a9d@ZCShou 4）\n * 重构主代码（AC6664b9f55a0c19300b85f25c01d909419ce354 & 12c583c4a149e10cde3fd70d450aca62ea35f574 & 676bddcb050ef214de1d37577961d635265908ee & edd5ef4d11673f7b597300bfb75c20a91d6d35c0由@ZCShou提供）\n * 重构操纵杆代码（827eaca95616906edeb72e3f29894c0ecc204486由@ZCShou提供）\n* **用户界面： 重命名UI文件名（E3AE319F5017B382BB546CEC49AB1A275F02D280由@ZCShou））*欢迎：**欢迎：**∅重新设计欢迎页面（497dfd4669e107eac7665450347b559a8b2e99b5 & db727d3682c0f21fc614bfe1ef9c5e271cdf21ce由@ZCShou）\n *重构设置代码（2ac7286609a23681b6f845919a1bbbdb076dc7b1 by @ZCShou）\n * 重构欢迎代码（d75cd54b3f6456228638d7bf18ac6947de44cdf9 by @ZCShou）\n\n## 杂务\n* **AGP：**\n * 更新AGP（c4722accba86eb1e6380727b29544bbb15a4e55@ZCShou e）\n* **全部：*****n* 更新版本（6218ce44d1fc7737cd140580bea5d94525ffb846由@ZCShou）\n* **deps：**\n * 提升github/codeq从 3.25.5 到 3.25.6 的 L-action （d125575ee0e26011774732f26c9d17e6ac4c0bac by @dependabot[bot]）\n * 从 3.m 中提升 github/codeql-action 25.3 到 3.25.5 （f7f9f4a7622209435408671eea5df7cffd62931e by @dependabot[bot]）\n * 将 softprops/action-gh-release 从 2.0.4 升级到 2.0.5 （073ec5c6c41dd42e76ae435666e102c538625b07 by @dependabot[bot]）\n * 将 github/codeql-action 从 3.25.1 升级到 3.25.3 （7e4ad789ad7accab5da5c97211584158d674aec5 by @dependabot[bot]）\n * 将 github/codeql-action 从 3.25.0 升级到 3.25.1（30b7fcbbe10eba7bb2d4e9181a5d78292d0c6696 by @dependabot[bot]）\n * 从 3.com 中提升 github/codeql-action 24.10 到 3.25.0 （3f94344612d933ddb33267ed7c8e5485149532c1 by @dependabot[bot]）\n * 将 github/codeql-action 从 3.24.9 升级到 3.24.10 （e5f0edccd27a01988ad187632a29ba6b12d8a99f by @dependabot[bot]）\n * 更新百度地图 SDK （7b1116e70be35fd211314fa2ed9503e73ced6eaa by @ZCShou）\n * 更新依赖项 （c162561428f4ac75d91534ff8b1d017e590a0b5d by @ZCShou）\n * 更新 NDK（8377f6312111a0e9d8d7ec00c38ac77aef95e648 by @ZCShou）\n * 从 3.. 24.8 到 3.24.9 （6e1af29b8339dda690d4042c74705cf4aae992a9 by @dependabot[bot]）\n * 将 softprops/action-gh-release 从 2.0.3 升级到 2.0.4 （26bb514f3f986ce31685c90851093f29f9dd335e by @dependabot[bot]）\n * 将 github/codeql-action 从 3.24.6 升级到 3.24.8 （afa28c6a9ac86c9ae7aa7c46008214e59bc705 by @dependabot[bot]）\n * 将 softprops/action-gh-release 从 0.1.15 升级到 2.0.3（093a518dbbf9da950eae92cbb6fe49b328d4575c by @dependabot[bot]）\n * 将 github/codeql-action 从 3.24.5 升级到 3.24.6 （a72503b800cfc0eba76b72be320de5748ee9da83 by @dependabot[bot]）\n * 将 actions/setup-java 从 3 升级到 4 （f1ff918591316b9e21388a2815db909fb2107e96 by @dependabot[bot]）\n * 将 github/codeql-action 从 3.24.3 升级到 3.24。5 （5944e576bf48fbdc519e6cfed1976c069325b964 by @dependabot[bot]）\n * 从 3.com 中提升 github/codeql-action 24.0 到 3.24.3 （3860e45b3d693d69123c3532fb65ad2080e1d335 by @dependabot[bot]）\n * 将 ardalanamini/auto-changelog 从 4.0.0 提升到 4.0.1 （189dd68e8b199dcc6d0cd38ff9e7bee594e6d04b by @dependabot[bot]）\n * 将 github/codeql-action 从 3.23.2 提升到 3.24.0 （50c635c830e5bd683911d703cd6e039af576292f） by @dependabot[bot]）\n * 将 github/codeql-action 从 3.23.1 提升到 3.23.2（59df1590c87dc8887fe45e85c2140939de42c4fc by @dependabot[bot]）\n * bump com.（凹凸 com.） android.tools.build：gradle 从 8.2.1 升级到 8.2.2 （d78171de1d106d6d75fe98aef8cf77501ede14cc by @dependabot[bot]）\n * 将 github/codeql-action 从 3.23.0 升级到 3.23.1 （270a0faa52179bd2f273287dab9fdb01ea69aed5 by @dependabot[bot]）\n * 将 github/codeql-action 从 3.22.12 升级到 3.23.0 （d41cb2653a07d3e4dd52efecf53b68be50a21838 by @dependabot[bot]）\n * 将 com.android.tools.build：gradle 从 8.2.0 升级到 8.2.1（3e9213454a7a5ea55d49089f12de4ecb54ae6215 by @dependabot[bot]）\n * 从 3.com 中提升 github/codeql-action 22.11 到 3.22.12 （163d056a838de05c0019df561d5402732ad02903 by @dependabot[bot]）\n * 将操作/签出从 3 提升到 4 （673bfe6ec8e148498fbc501aee1823d7c6263466 by @dependabot[bot]）\n * 将 ardalanamini/auto-changelog 从 3 提升到 4 （8226915b57ec29f914618634b12f582328714b0c by @dependabot[bot]）\n * 将 com.squareup.okhttp3：okhttp 从 4.10.0 提升到 4.11。0 （b1e8f6128a826f5e19447ddfdad0358c98c76856 by @dependabot[bot]）\n* **doc： **\n * 更新自述文件（86b9a2b89acb02737a5c6128e057b350ed40ce25 by @ZCShou）\n* **gradle：**\n * 更新一些依赖项（b60b290c170d4ecf116c5f0b5e6baa293c0c3285 & 9393eafd4e2e909c6e52d3a1493f3fc04c6ecdc5 by @ZCShou）\n* **操纵杆：**\n * 重新设计一些图标（4d7bd6c0539352e8926a670166dbfad655fe575c由@ZCShou）\n* **main：**╈ * 清洁警告（9aff736220029724329cbcb02b5fbf50eb45a5e4 & e392f74e0c2bd5a97e2303d2649ad1eeeee7c52c by @ZCShou）\n* **地图：**\n * 更新OKHTTP3到4.10.0（0fc56dc2b028cf44a453b18f4549ab632bfac42c由@ZCShou）\n * 更新版本（9f03ed3312d976a998cafb5368c46b14d5170373@ZCShou）\n * 更新百度sdk （18908bd6d73801960abac77076fd057b0f362afb by @ZCShou）\n* **ui： **\n * 重绘应用程序的图标 （b8ae3d54749779b9a3a0194ce21bf8f5f6ec7582 by @ZCShou）\n* **欢迎：**\n * 重命名布局文件 （9e1e698776f893733229a1e2688da13b15e01f0b by @ZCShou）\n\n## CI\n* **Github操作：**\n * 更新构建操作（10b10c673b1618dfa6e67ad4f0af2d7135a04d24由@ZCShou提供）\n\n## 代码风格\n* **操纵杆：**\n * 重绘RockerView的锁图标（3fcd94ae16cae5d739069c135223ebe1845750b7 by @ZCShou）\n* **main：****main： *\n * 点击时更新地图按钮样式（d26698dd092db49dd1bf9ad3f5589ce916212e6f by @ZCShou）\n* **协议：**\n * 重命名一些相关变量（e0b684e7c41576ec8f2182f4d45900da24492898 & e521d6e1fafb359bcc41f75e3acbb7da457a85df by @ZCShou）\n* **设置：**\n * 更新设置用户界面 （02e060f0dd860bc8088bac70d16bbc09d1eabe44 by @ZCShou）\n* **主题：**\n * 调整主题 （add0e83182b6d9ba326630c444500b906acc527c by @ZCShou）\n\n## 其他更改\n* 2022-06-18 04：32：17 （24a00089e752de24dc09a970e75c16030d973da9 by @ZCShou）\n* 标准。ACCURACY_FINE Android 12 上的lint错误（82b41447d116d9aa36e4299c2cf891e018e9b5cd by @ZCShou）\n* ' 使用更快的 \“indexOf（char）\” 方法。（82fdfbbca076ed6025d58ce13a78a0fc48098a3c by @ZCShou）\n* //en.wikipedia.org/wiki/Comparison_of_ARMv8-A_cores （266dcc3d8430fc08d6890466fc097b4f31335f00 by @ZCShou）\n* //gitee.com/zcshou/gogogo （4f5db18e71117e03820438583ca5374b4e2d346f by @ZCShou）\n* **<github>：**\n * 修复 GitHub 操作 （ab0ecf1aa503a8f39f8ab7dca7f48b1ed700a902 by @ZCShou）\n* **<README>：**\n * 添加检查许可证 （8e54112a8632325edf56d21278e9ec64553cc72c by @ZCShou）\n * 添加一些警告（fae542c0fc3af1df5e7ec66519bf19fb60f0ef0d by @ZCShou）\n* **行动：**\n * 更新问题操作 （5e3371066f2724ede656027d68b1ec42ef43528c by @ZCShou）\n* **百度：**\n * 更新百度地图 SDK （c37171ebb23259356cc793923c677c0f29dd2431 by @ZCShou）\n* **按钮：**\n * 更新点击时的摇杆按钮样式 （ecd4abc6f1d5d41861ac05e38640b405c404218c by @ZCShou）\n* **清除：**\n * 清除一些已弃用的配置（5e1e5844709bfcf21d5a95b98f978d92679e574b by @ZCShou）\n* **github：**\n * 删除代码QLenties 的 Enties 中。（a1d6ff9cd4b18e91aff8522aca66bb2c48404f5e by @ZCShou）\n * 修复发布操作（b9c30432c37d05d4cd71fa0e456e781b0b158f8a & 81f4218c63d51eb1143cb3f2d273bd414f92a30d & addab34c8dbc429126161855abdb6759e4310e2f & e69894dd2ab9fab03541d787ecc34f492e22808b by @ZCShou）\n* **Github：**\n * 更新GitHub的操作（6c4958783993c7da458c6892a89ffb596c76e7a9 & d391752dafebc11106f544d40c11e1f7ee54fa10 & 0c5baa9d12f72c8e7878b935e2c9fc61cf57c01b by @ZCShou）\n * 更新GitHub的问题模板（a1f2b5fb4f6cda436789cf32c30d7976ac06440e & 8e2bf9100cb23692bbb5b657c6b87f0307bc8924由@ZCShou提供）\n* **github操作：**\n * 添加CodeQL查询。 （ffb964f6abad4d51d59f446d898c51339670c10e by @ZCShou）\n* **gradle：**\n * 更新Gradle版本（76e7ee271162b5a89d678433c172c24bb40518fb由@ZCShou提供）\n* **问题：**\n * 更新问题模板（890d1d89d0496ab40d4a7cb988e7a531a3fb8a0@ZCShou 8）\n* **链接：**\n * 更新git仓库链接（9e99e857fa32f7c87ddef5c27495fb376d942ffb由@ZCShou提供）\n* **main：**\n * 清理警告\“（dcb41a51b8bb1b22b024770e6937b95da9669e4d by @ZCShou）\n* **地图：**\n * 更新百度地图SDK（b5fb8150df6c4c4cd8243fc8de186fe571e52741 by @ZCShou）\n * 更新浮动地图按钮（59c138e0b4dfa73fe21435cf24799d39f3c1fa84 by @ZCShou）\n* **NDK：**\n * 更新NDK到25.1 （c1da7ac8895ea5269e81414a80e1cfc6747edbb9 by @ZCShou）\n* **面板：**\n * 更新POI面板和飞行图标（CD326b22664a11e04cd52cef94c7457f3b8395bb by @ZCShou）\n* **PR：**\n * 更新PR模板（7513fc2835b715c0543ae0e37b78362d63197ce@ZCShou 5）\n* **自述文件：**\n * 重命名一些图像的名称（1c6fe9517af8bffb4a6cc076fd637aa8f82e027f由@ZCShou提供）\n * 添加一些警告（26b6fea74a12d97808e28066c913f692244f62bc & 35234964617a8c2cfe7dd010e0f40138bd8d9cd6由@ZCShou提供）\n* **安全性） **\n * 更新 SECURITY.md（e983d9c83f235f46882599f75501befd4e9b70db由@ZCShou提供）\n* **服务：**\n * 更新服务停止（8642e02f3cdcc5ca5d584e87776bea87a3f0b008由@ZCShou提供）\n\n\n## 新贡献者\n* @dependabot在 https://github.com/ZCShou/GoGoGo/pull/11 中做出了他们的第一次贡献\n*@BXYMartin 在 https://github.com/ZCShou/GoGoGo/pull/86\n* 中做出了他们的第一次贡献@Caulm在 https://github 年做出了他们的第一次贡献。com/zekshu/gogogo/pool/94\n“，
+“反应”： {
+“url”： “https://api.github.com/repos/ZCShou/GoGoGo/releases/157707519/reactions”， //
+“total_count”：27、
+"+1": 27,
+"-1": 0,
+“笑”：0、
+“hooray”： 0， 万岁
+“困惑”：0、
+“heart”： 0，
+“火箭”：0、
+“eyes”：0
+  },
+“mentions_count”：4
+}
